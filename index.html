@@ -4,24 +4,13 @@
     <meta charset="utf-8">
     <title>Brian G. Katz - GitHub Atlas</title>
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Khand" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
     <!-- JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-
-    <style>
-
-        body {
-            height: 100%;
-            padding: 20px;
-            margin: 20px;
-            font-family: Khand, sans-serif;
-        }
-
-    </style>
 
 </head>
 
@@ -31,16 +20,15 @@
 <div class="container">
     <!-- Page Header -->
     <!--justify-content-center to center columns (col-*) inside row-->
-    <div class="row justify-content-center align-items-center">
-        <a href="https://www.github.com/briangkatz/" target="_blank">
-            <img src="img/panoramic.png" class="image">
-        </a>
-    </div>
-    <br>
+<!--    <div class="row justify-content-center align-items-center">-->
+<!--        <a href="https://www.github.com/briangkatz/" target="_blank">-->
+<!--            <img src="img/panoramic.png" class="image">-->
+<!--        </a>-->
+<!--    </div>-->
+<!--    <br>-->
     <div class="row text-center">
         <div class="col-12">
             <h1>Brian G. Katz</h1>
-            <hr>
             <h2>Atlas of GitHub Repositories</h2>
         </div>
     </div>
@@ -52,33 +40,42 @@
 
         <!--1-->
         <div class="col-md-4 col-lg-4 map">
-            <img src="img/oa_mapping_tool.png" class="image">
-            <div class="overlay">
-                <div class="text"><h3><a href="oa/vulnerability/pnw/">OA Mapping Tool</a></h3>
-                    <small>Mapping species responses to modeled ocean acidification hotspots in the Pacific Northwest</small>
+            <a href="oa/vulnerability/pnw">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>OA Mapping Tool</h3>
+                        <small>Mapping species responses to modeled ocean acidification hotspots in the Pacific Northwest</small>
+                    </div>
                 </div>
-            </div>
+            </a>
+            <img src="img/oa_mapping_tool.png" class="image">
         </div>
 
         <!--2-->
         <div class="col-md-4 col-lg-4 map">
-            <img src="img/oa_vulnerability.png" class="image">
-            <div class="overlay">
-                <div class="text"><h3><a href="oa/vulnerability/">OA Vulnerability</a></h3>
-                    <small>Assessing vulnerability of shellfish stakeholders to ocean acidification in the Pacific Northwest</small>
+            <a href="oa/vulnerability">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>OA Vulnerability</h3>
+                        <small>Assessing vulnerability of shellfish stakeholders to ocean acidification in the Pacific Northwest</small>
+                    </div>
                 </div>
-            </div>
+            </a>
+            <img src="img/oa_vulnerability.png" class="image">
         </div>
 
 
         <!--3-->
         <div class="col-md-4 col-lg-4 map">
-            <img src="img/oa_adaptation.png" class="image">
-            <div class="overlay">
-                <div class="text"><h3><a href="oa/adaptation/">OA Adaptation</a></h3>
-                    <small>Case study of successful adaptation to ocean acidification in the Pacific Northwest</small>
+            <a href="oa/adaptation">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>OA Adaptation</h3>
+                        <small>Case study of successful adaptation to ocean acidification in the Pacific Northwest</small>
+                    </div>
                 </div>
-            </div>
+            </a>
+            <img src="img/oa_adaptation.png" class="image">
         </div>
 
     </div>
@@ -87,32 +84,41 @@
 
         <!--4-->
         <div class="col-md-4 col-lg-4 map">
-            <img src="img/oa_background.png" class="image">
-            <div class="overlay">
-                <div class="text"><h3><a href="oa/background">OA Story Map</a></h3>
-                    <small>Background on shellfish-dependent livelihoods and ocean acidification in the Pacific Northwest</small>
+            <a href="oa/background">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>OA Background</h3>
+                        <small>Background on shellfish-dependent livelihoods and ocean acidification in the Pacific Northwest</small>
+                    </div>
                 </div>
-            </div>
+            </a>
+            <img src="img/oa_background.png" class="image">
         </div>
 
         <!--5-->
         <div class="col-md-4 col-lg-4 map">
-            <img src="img/oa_exposure.png" class="image">
-            <div class="overlay">
-                <div class="text"><h3><a href="oa-exposure">OA Exposure</a></h3>
-                    <small>Interannual OA extremes in the Pacific Northwest (&Omega;<sub>ar</sub><=1.4)</small>
+            <a href="oa-exposure">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>OA Exposure</h3>
+                        <small>Interannual OA extremes in the Pacific Northwest (&Omega;<sub>ar</sub><=1.4)</small>
+                    </div>
                 </div>
-            </div>
+            </a>
+            <img src="img/oa_exposure.png" class="image">
         </div>
 
         <!--6-->
         <div class="col-md-4 col-lg-4 map">
-            <img src="img/vector_field.png" class="image">
-            <div class="overlay">
-                <div class="text"><h3><a href="vector-field-animation">Vector Field Animation</a></h3>
-                    <small>Vector animation of raster data</small>
+            <a href="vector-field-animation">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>Vector Field Animation</h3>
+                        <small>Vector animation of raster data</small>
+                    </div>
                 </div>
-            </div>
+            </a>
+            <img src="img/vector_field.png" class="image">
         </div>
 
     </div>
@@ -121,32 +127,41 @@
 
         <!--7-->
         <div class="col-md-4 col-lg-4 map">
-            <img src="img/harvey.png" class="image">
-            <div class="overlay">
-                <div class="text"><h3><a href="harvey">Hurricane Harvey</a></h3>
-                    <small>Mapping Houston census tracts by exposure and adaptive capacity to flooding from Harvey</small>
+            <a href="harvey">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>Hurricane Harvey</h3>
+                        <small>Mapping Houston census tracts by exposure and adaptive capacity to flooding from Harvey</small>
+                    </div>
                 </div>
-            </div>
+            </a>
+            <img src="img/harvey.png" class="image">
         </div>
 
         <!--8-->
         <div class="col-md-4 col-lg-4 map">
-            <img src="img/tweet_stream.png" class="image">
-            <div class="overlay">
-                <div class="text"><h3><a href="https://realtime-tweet-stream.herokuapp.com/">Real-time Tweet Stream</a></h3>
-                    <small>Streaming global tweet locations on a map in near real-time</small>
+            <a href="https://realtime-tweet-stream.herokuapp.com">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>Real-time Tweet Stream</h3>
+                        <small>Streaming global tweet locations on a map in near real-time</small>
+                    </div>
                 </div>
-            </div>
+            </a>
+            <img src="img/tweet_stream.png" class="image">
         </div>
 
         <!--9-->
         <div class="col-md-4 col-lg-4 map">
-            <img src="img/gps_photos_geojson.png" class="image">
-            <div class="overlay">
-                <div class="text"><h3><a href="https://www.github.com/briangkatz/gps-photos-to-geojson/">GPS Photos to GeoJSON</a></h3>
-                    <small>Converting a directory of georeferenced photos into geospatial data</small>
+            <a href="https://www.github.com/briangkatz/gps-photos-to-geojson">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>GPS Photos to GeoJSON</h3>
+                        <small>Converting a directory of georeferenced photos into geospatial data</small>
+                    </div>
                 </div>
-            </div>
+            </a>
+            <img src="img/gps_photos_geojson.png" class="image">
         </div>
 
     </div>
@@ -155,32 +170,41 @@
 
         <!--10-->
         <div class="col-md-4 col-lg-4 map">
-            <img src="img/nyc.png" class="image">
-            <div class="overlay">
-                <div class="text"><h3><a href="noise">NYC</a></h3>
-                    <small>3D map of noise complaints in NYC</small>
+            <a href="noise">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>NYC</h3>
+                        <small>3D map of noise complaints in NYC</small>
+                    </div>
                 </div>
-            </div>
+            </a>
+            <img src="img/nyc.png" class="image">
         </div>
 
         <!--11-->
         <div class="col-md-4 col-lg-4 map">
-            <img src="img/airports.png" class="image">
-            <div class="overlay">
-                <div class="text"><h3><a href="airports">US Airports</a></h3>
-                    <small>Map of airports with projection</small>
+            <a href="airports">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>US Airports</h3>
+                        <small>Map of airports with projection</small>
+                    </div>
                 </div>
-            </div>
+            </a>
+            <img src="img/airports.png" class="image">
         </div>
 
         <!--12-->
         <div class="col-md-4 col-lg-4 map">
-            <img src="img/waterfalls.png" class="image">
-            <div class="overlay">
-                <div class="text"><h3><a href="waterfalls">Oregon Waterfalls</a></h3>
-                    <small>Map of waterfall locations in Oregon</small>
+            <a href="waterfalls">
+                <div class="overlay">
+                    <div class="text">
+                        <h3>Oregon Waterfalls</h3>
+                        <small>Map of waterfall locations in Oregon</small>
+                    </div>
                 </div>
-            </div>
+            </a>
+            <img src="img/waterfalls.png" class="image">
         </div>
 
     </div>
@@ -193,10 +217,10 @@
             <p>Brian G. Katz, Oregon State University, 2020</p>
         </div>
 
-        <div class="row justify-content-center align-items-center">
-            <a href="http://ceoas.oregonstate.edu/profile/katz/" target="_blank"><img src="img/osu_logo.png"></a>
-            <a href="#"><img src="img/brian.png"></a>
-            <a href="http://geoviz.ceoas.oregonstate.edu/" target="_blank"><img src="img/logo-long.png"></a>
+        <div class="row mx-auto text-center">
+            <div class="col-md-4 col-lg-4 map"><a href="http://ceoas.oregonstate.edu/profile/katz" target="_blank"><img src="img/osu_logo.png"></a></div>
+            <div class="col-md-4 col-lg-4 map"><a href="#"><img src="img/brian.png"></a></div>
+            <div class="col-md-4 col-lg-4 map"><a href="#" target="_blank"><img src="img/logo-long.png"></a></div>
         </div>
     </footer>
 
