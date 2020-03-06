@@ -57,20 +57,20 @@
 
   ![GPS Photos to GeoJSON](img/gps_photos_geojson.png)
 
-- #### [NYC Noise Complaints](https://briangkatz.github.io/noise/)
+- #### [U.S. Oil Imports](https://briangkatz.github.io/petro)
 
-  - 3D map of noise complaints in NYC
+  - Flow map of petroleum product imports into U.S. ports in 2019
 
-  ![NYC Noise Complaints](img/nyc.png)
+    ![U.S. Oil Imports](img/petro.png)
 
-- #### [US Airports](https://briangkatz.github.io/airports/)
+- #### [U.S. Airports](https://briangkatz.github.io/airports/)
 
   - Map of airports in the United States
 
-  ![US Airports](img/airports.png)
+  ![U.S. Airports](img/airports.png)
 
-- #### [Oregon Waterfalls](https://briangkatz.github.io/waterfalls/)
+- #### [NYC Noise Complaints](https://briangkatz.github.io/noise/)
 
-  - Map of waterfall locations in Oregon
+  - 3D map of noise complaints in NYC
   
-  ![Oregon Waterfalls](img/waterfalls.png)
+  ![NYC Noise Complaints](img/nyc.png)
